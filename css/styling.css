@@ -1,0 +1,23 @@
+body {
+	background-color: transparent;
+}
+
+#stream-begins {
+	font-family: Triomphe, Calibri, Arial, sans-serif;
+	font-size: 92px;
+	font-weight: lighter;
+	color: white;
+	text-align: center;
+	line-height: 2em;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	/*text-shadow: rgba(0,0,0,0.25) 1px 1px 3px;*/
+	text-shadow: rgba(0, 0, 0, 1) 0 0 10px;
+}
+
+#stream-begins__countdown {
+	text-transform: initial;
+	display: block;
+	font-size: 56px;
+	line-height: initial;
+}
