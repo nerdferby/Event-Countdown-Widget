@@ -1,15 +1,3 @@
-// let
-// 	when = [],
-// 	setStream = time => when = [time.split(":")[0], time.split(":")[1]];
-//
-// setInterval(
-// 	() => {
-// 		let streamCountdown = countdown(null, new Date().setHours(when[0], when[1], 0));
-// 		$("#stream-begins").html("Stream begins in <span id='stream-begins__countdown'>" + streamCountdown.toString() + "</span>")
-// 	},
-// 	500
-// );
-
 let stream = {
 	_interval: undefined
 };
