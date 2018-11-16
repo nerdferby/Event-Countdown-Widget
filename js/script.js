@@ -34,5 +34,6 @@ stream.start = time => {
 stream.countdown = minutes => {
 
 	stream.start(moment().add(minutes, "m").hours() + ":" + moment().add(minutes, "m").minutes());
+	console.log("Countdown set for" + moment().add(minutes, "m").hours() + ":" + moment().add(minutes, "m").minutes());
 
 };
